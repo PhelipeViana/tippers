@@ -1,8 +1,20 @@
 {
   "name": "gamba-platform-template",
-  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Welcome to the test project. This project aims to check skills of each kind of developers seamlessly across multiple blockchains, including Solana, Ethereum, and BNB.",
+  "homepage": "https://github.com/apollo-hero/tippers#readme",
+  "bugs": {
+    "url": "https://github.com/apollo-hero/tippers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollo-hero/tippers.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "server": "nodemon ./server/server.js",
     "start": "concurrently \"npm run server\" \"npm run client\"",
